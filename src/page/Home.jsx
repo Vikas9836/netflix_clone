@@ -32,7 +32,7 @@ const Home = () => {
   //     setPath(Response.data.results);
   //   })
   // }, [])
-
+  
   const getData = (movieType) => {
     if (movieType == "ORIGINALS") {
       url = Requests.Popular;
@@ -49,7 +49,6 @@ const Home = () => {
     if (movieType == "NEW RELEASE") {
       url = Requests.Upcoming;
     } setUrlset(url);
-
   }
   const show = (im) => {
     // alert(im);
